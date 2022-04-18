@@ -1,8 +1,8 @@
-package cycles;
+package Homework_2.cycles;
 
-public class NegativeSequence5 {
+public class Numbers_5_1 {
     public static void main(String[] args) {
-        for (int i = 0; i > -5 * 10 ; i= i - 5) {
+        for (int i = 5; i > 0 ; i--) {
             System.out.println(i);
         }
     }

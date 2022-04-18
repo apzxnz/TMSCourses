@@ -1,4 +1,4 @@
-package cycles;
+package Homework_2.cycles;
 
 public class Numbers_1_99 {
     public static void main(String[] args) {

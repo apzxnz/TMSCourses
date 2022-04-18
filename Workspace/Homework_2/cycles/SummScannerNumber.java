@@ -1,4 +1,4 @@
-package cycles;
+package Homework_2.cycles;
 
 import utils.ScannerUtils;
 

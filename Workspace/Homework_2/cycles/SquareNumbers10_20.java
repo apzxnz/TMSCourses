@@ -1,4 +1,4 @@
-package cycles;
+package Homework_2.cycles;
 
 public class SquareNumbers10_20 {
     public static void main(String[] args) {

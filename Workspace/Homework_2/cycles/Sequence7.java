@@ -1,6 +1,4 @@
-package cycles;
-
-import utils.ScannerUtils;
+package Homework_2.cycles;
 
 public class Sequence7 {
     public static void main(String[] args) {

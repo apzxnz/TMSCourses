@@ -1,4 +1,5 @@
-package control_structures;
+package Homework_2.control_structures;
+
 
 import utils.ScannerUtils;
 
