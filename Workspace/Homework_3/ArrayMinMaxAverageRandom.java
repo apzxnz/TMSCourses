@@ -24,7 +24,6 @@ public class ArrayMinMaxAverageRandom {
 
     private static Map<String, Number> findMinMaxAverageNumber(int[] arr) {
         int min = 0, max = 0, sum = 0;
-        double average = 0;
         for (int i = 0; i < arr.length ; i++) {
             if (i == 0) {
                 max = arr[i];
@@ -37,16 +36,15 @@ public class ArrayMinMaxAverageRandom {
                 max = arr[i];
             }
             sum += arr[i];
-            average = sum / arr.length;
         }
         int finalMin = min, finalMax = max;
-        double finalAverage = average;
+        double average = sum / arr.length;
 
         return new HashMap<>() {
             {
                 put("min", finalMin);
                 put("max", finalMax);
-                put("average", finalAverage);
+                put("average", average);
             }
         };
     }
