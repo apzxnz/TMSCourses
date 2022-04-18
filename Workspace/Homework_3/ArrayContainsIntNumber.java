@@ -8,10 +8,12 @@ import java.util.Arrays;
 public class ArrayContainsIntNumber {
     public static void main(String[] args) {
 
-        System.out.println("Введите число которое хотите найти в массиве:");
-        int number = ScannerUtils.sc.nextInt();
         int[] arr = ArraysUtils.createAndFillArray(5);
         System.out.println(Arrays.toString(arr) + "\n");
+
+        System.out.println("Введите число которое хотите найти в массиве:");
+        int number = ScannerUtils.sc.nextInt();
+
         if (arrayContainsNumber(arr, number))  {
             System.out.println("Массив содержит число");
         } else {
