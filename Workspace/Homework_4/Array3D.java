@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class Array3D {
     public static void main(String[] args) {
-        
+
         int[][][] arr3D = ArraysUtils.createAndFill3DArray();
         System.out.println(Arrays.deepToString(arr3D));
         System.out.println("Введите число на которое хотите увеличить каждый элемент массива:");
