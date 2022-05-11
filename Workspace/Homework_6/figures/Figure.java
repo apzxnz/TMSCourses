@@ -1,6 +1,6 @@
 package Homework_6.figures;
 
-public abstract class Figure {
+abstract class Figure {
 
     String figureType;
 
