@@ -44,6 +44,20 @@ public class ZavodInitializer {
         System.out.println("############################################ Вывод главы завода 3 (после добавления 3 дира) ############################################");
         System.out.println(joskiyGlavaZavoda + "\n");
 
+        System.out.println("!!! -- Запускаем определятор -- !!!");
+        OpredelyatorService opredelyatorService = OpredelyatorService.getInstance();
+
+        Director directorForDetermineService = joskiyGlavaZavoda;
+        String employeeNameForDetermineService = "Катя";
+
+        if (opredelyatorService.determinePresenceEmployeeWithNameInDirectorSubordinateStructure(directorForDetermineService,employeeNameForDetermineService)) {
+            System.out.printf("У директора (%s) есть в подчинении сотрудник с именем (%s)",
+                    directorForDetermineService.getLastName() + " " + directorForDetermineService.getFirstName(), employeeNameForDetermineService);
+        } else {
+            System.out.printf("У директора (%s) нету в подчинении сотрудника с именем (%s)",
+                    directorForDetermineService.getLastName() + " " + directorForDetermineService.getFirstName(), employeeNameForDetermineService);
+        }
+
 
 
     }

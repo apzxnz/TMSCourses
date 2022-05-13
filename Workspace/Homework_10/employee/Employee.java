@@ -11,7 +11,7 @@ import java.time.YearMonth;
 import java.time.temporal.ChronoUnit;
 
 @Getter
-abstract class Employee {
+public abstract class Employee {
 
     protected final String firstName;
     protected final String lastName;
