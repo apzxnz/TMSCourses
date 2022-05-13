@@ -41,8 +41,8 @@ public class Director extends Employee {
         int sizeBeforeAdd = subordinateEmployees.size();
         subordinateEmployees.add(employee);
         if (sizeBeforeAdd == subordinateEmployees.size()) {
-            System.err.printf("Сотрудник (%s) не был добавлен в подчинение директора, так-как он уже у него в подчинении\n",
-                    employee.lastName + " " + employee.firstName
+            System.err.printf("Сотрудник (%s) не был добавлен в подчинение директора (%s), так-как он уже у него в подчинении\n",
+                    employee.lastName + " " + employee.firstName, this.lastName + " " + this.firstName
             );
         }
     }
