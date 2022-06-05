@@ -23,7 +23,6 @@ public class Homework14Initializer {
     }
 
     public static void getDateNextTuesday() {
-        DayOfWeek dayOfWeek = DayOfWeek.of(2);
         LocalDate date = LocalDate.now();
         date = date.with(TemporalAdjusters.next(DayOfWeek.TUESDAY));
         System.out.println(date);
