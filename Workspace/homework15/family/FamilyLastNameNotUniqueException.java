@@ -1,4 +1,4 @@
-package family;
+package homework15.family;
 
 public class FamilyLastNameNotUniqueException extends Exception{
     @Override

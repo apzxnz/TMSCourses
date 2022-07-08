@@ -1,3 +1,5 @@
+package homework12;
+
 import java.io.*;
 
 public class Task12Initializer {

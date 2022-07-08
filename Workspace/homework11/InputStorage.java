@@ -1,5 +1,8 @@
-import exceptions.FiveElementsLimitException;
-import exceptions.GetFromEmptyInputStorageException;
+package homework11;
+
+
+import homework11.exceptions.FiveElementsLimitException;
+import homework11.exceptions.GetFromEmptyInputStorageException;
 
 public class InputStorage {
     private String[] enteredStrings = new String[0];

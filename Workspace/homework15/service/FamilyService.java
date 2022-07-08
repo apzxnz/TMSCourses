@@ -1,7 +1,7 @@
-package service;
+package homework15.service;
 
-import family.Children;
-import family.Family;
+import homework15.family.Children;
+import homework15.family.Family;
 
 import java.util.HashSet;
 import java.util.Map;

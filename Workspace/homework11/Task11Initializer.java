@@ -1,5 +1,7 @@
-import exceptions.FiveElementsLimitException;
-import exceptions.GetFromEmptyInputStorageException;
+package homework11;
+
+import homework11.exceptions.FiveElementsLimitException;
+import homework11.exceptions.GetFromEmptyInputStorageException;
 
 import java.util.Arrays;
 

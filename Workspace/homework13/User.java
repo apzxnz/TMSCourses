@@ -1,3 +1,5 @@
+package homework13;
+
 import java.util.Objects;
 
 public class User implements Comparable<User> {

@@ -1,3 +1,5 @@
+package homework13;
+
 import java.util.*;
 
 /** 1) Создать класс User с полями: имя, пол, возраст

@@ -1,4 +1,4 @@
-package exceptions;
+package homework11.exceptions;
 
 public class FiveElementsLimitException extends Exception {
 

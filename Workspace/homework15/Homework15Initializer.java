@@ -1,8 +1,10 @@
-import family.Children;
-import family.Family;
-import family.FamilyLastNameNotUniqueException;
-import service.FamilyService;
-import service.NumbersService;
+package homework15;
+
+import homework15.family.Children;
+import homework15.family.Family;
+import homework15.family.FamilyLastNameNotUniqueException;
+import homework15.service.FamilyService;
+import homework15.service.NumbersService;
 
 import java.util.ArrayList;
 import java.util.Arrays;
