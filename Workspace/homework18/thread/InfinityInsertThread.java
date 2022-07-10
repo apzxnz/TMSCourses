@@ -2,13 +2,13 @@ package homework18.thread;
 
 import homework18.storage.StorageService;
 
-public class InfinityInsertRemoveThread extends Thread {
+public class InfinityInsertThread extends Thread {
 
     boolean isRun = true;
     StorageService storageService;
     String str;
 
-    public InfinityInsertRemoveThread(StorageService storageService, String str) {
+    public InfinityInsertThread(StorageService storageService, String str) {
         this.storageService = storageService;
         this.str = str;
     }
@@ -17,7 +17,7 @@ public class InfinityInsertRemoveThread extends Thread {
     public void run() {
         while (isRun) {
             try {
-                storageService.insertOrRemoveElementInCollection(str);
+                storageService.insertElementInCollection(str);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
