@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Homework20Initializer {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         DbService dbService = new DbService();
         UserService userService = new UserService(dbService.getConnection());
         User user = new User("testuser1", "password1", "vasya", Sex.MALE, Role.USER);
