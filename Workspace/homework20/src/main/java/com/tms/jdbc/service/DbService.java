@@ -48,7 +48,7 @@ public class DbService {
         }
     }
 
-    private void closeConnection() {
+    public void closeConnection() {
         try {
             connection.close();
         } catch (SQLException e) {

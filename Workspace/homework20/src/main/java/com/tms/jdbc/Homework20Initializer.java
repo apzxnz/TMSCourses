@@ -20,6 +20,7 @@ public class Homework20Initializer {
         user.setLogin("testuser1newlogin");
         userService.update(user);
         System.out.println(userService.findAll());
+        dbService.closeConnection();
         //System.out.println(userService.findOneById(3L));
         //userService.delete(3L);
     }
