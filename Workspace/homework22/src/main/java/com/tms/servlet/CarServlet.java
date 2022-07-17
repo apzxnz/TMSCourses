@@ -3,6 +3,7 @@ package com.tms.servlet;
 import com.tms.car.DBCarService;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +15,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Map;
 
+@WebServlet("/cars")
 public class CarServlet extends HttpServlet {
 
     private final DBCarService dbCarService = new DBCarService();

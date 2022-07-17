@@ -5,13 +5,13 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-  <servlet>
-    <servlet-name>Car</servlet-name>
-    <servlet-class>com.tms.servlet.CarServlet</servlet-class>
-  </servlet>
+<!--  <servlet>-->
+<!--    <servlet-name>Car</servlet-name>-->
+<!--    <servlet-class>com.tms.servlet.CarServlet</servlet-class>-->
+<!--  </servlet>-->
 
-  <servlet-mapping>
-    <servlet-name>Car</servlet-name>
-    <url-pattern>/cars</url-pattern>
-  </servlet-mapping>
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>Car</servlet-name>-->
+<!--    <url-pattern>/cars</url-pattern>-->
+<!--  </servlet-mapping>-->
 </web-app>
